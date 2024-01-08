@@ -12,7 +12,15 @@ export default function Banner() {
             </div>
             <div className=' text-xl md:text-2xl mt-7'>
             Learn
+            <Typed className='pl-2'
+            strings ={['ReactJs','TailwindCSS']}
+            typeSpeed={40}
+            loop={true}
+            backSpeed={50}
+            />
+            
             </div>
+            <button className='bg-black text-white p-3 rounded mt-5'>Get started</button>
         </div>
     
     </div>
